@@ -39,31 +39,22 @@ Desejamos integrar o `glpk` e o **Pyomo**. Felizmente, o `glpk` torna isso muito
 
 **Função Objetivo:**
 
-$$
-\text{Maximizar } Z = 30x + 50y
-$$
+Maximizar  
+\[ Z = 30x + 50y \]
 
 **Restrições:**
 
 Horas de máquina:  
-$$
-2x + 3y \leq 100
-$$
+\[ 2x + 3y \leq 100 \]
 
 Unidades de matéria-prima:  
-$$
-3x + 2y \leq 120
-$$
+\[ 3x + 2y \leq 120 \]
 
 **Números não negativos:**  
-$$
-x \geq 0, \quad y \geq 0
-$$
+\[ x \geq 0, \quad y \geq 0 \]
 
 **Variáveis inteiras:**  
-$$
-x, y \in \mathbb{Z}
-$$
+\[ x, y \in \mathbb{Z} \]
 
 ---
 
@@ -72,3 +63,4 @@ $$
 - **Lucro máximo:** R$ 1660,00  
 - **Produzir:** 2 unidades do produto A  
 - **Produzir:** 32 unidades do produto B
+
